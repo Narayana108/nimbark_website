@@ -1,7 +1,6 @@
 # Nimbark sampraday website
 
-
-# Set up
+## Local set up
 
 Clone the repo or download it.
 
@@ -19,3 +18,7 @@ Start the Tailwind CLI build process
 ```sh
 $ npm run tw:css
 ```
+
+## stack
+nodejs, express, ejs, tailwind
+UI components - https://merakiui.com/

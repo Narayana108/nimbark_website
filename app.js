@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
   res.render("pages/index");
 });
 
+app.get("/faq", (req, res) => {
+  res.render("pages/faq");
+});
+
 // server listening
 app.listen(PORT, () => {
   console.log(`The app is listening on port: http://localhost:${PORT}`);
