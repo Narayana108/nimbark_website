@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "postcss public/styles/tailwind.css -o public/styles/style.css && node app.js",
     "tw:css": "postcss public/styles/tailwind.css -o public/styles/style.css -w",
     "dev": " nodemon app.js"
   },
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@tailwindcss/typography": "github:tailwindcss/typography",
+    "@tailwindcss/forms": "^0.5.3",
     "autoprefixer": "^10.4.13",
     "daisyui": "^2.41.0",
     "ejs": "^3.1.8",

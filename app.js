@@ -11,11 +11,15 @@ app.set("view engine", "ejs");
 
 // routers
 app.get("/", (req, res) => {
-  res.render("pages/index");
+  res.render("pages/home");
 });
 
 app.get("/faq", (req, res) => {
   res.render("pages/faq");
+});
+
+app.get("/contact", (req, res) => {
+  res.render("pages/contact");
 });
 
 // server listening

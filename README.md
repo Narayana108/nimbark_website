@@ -1,9 +1,9 @@
-# Sanakadi sampraday information portal
-### aka Nimbark sampraday
+# Shri Sanakadi Sampraday Portal
+Sanakadi is also known as the Nimbark sampraday
 
 ## Local set up
 
-Clone the repo or download it.
+Clone the repo
 
 Install dependancies
 ```sh
@@ -15,11 +15,11 @@ Start sever in development mode
 $ npm run dev
 ```
 
-Start the Tailwind CLI build process
+Start and watch the tailwind build process
 ```sh
 $ npm run tw:css
 ```
 
 ## stack
 nodejs, express, ejs, tailwind
-UI components - https://merakiui.com/
+UI components - https://daisyui.com
