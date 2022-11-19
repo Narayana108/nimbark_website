@@ -1,4 +1,5 @@
-# Nimbark sampraday website
+# Sanakadi sampraday information portal
+### aka Nimbark sampraday
 
 ## Local set up
 
