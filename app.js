@@ -22,6 +22,14 @@ app.get("/contact", (req, res) => {
   res.render("pages/contact");
 });
 
+app.get("/dvaitaAdvaita", (req, res) => {
+  res.render("pages/dvaitaAdvaita");
+});
+
+app.get("/history", (req, res) => {
+  res.render("pages/history");
+});
+
 // server listening
 app.listen(PORT, () => {
   console.log(`The app is listening on port: http://localhost:${PORT}`);
