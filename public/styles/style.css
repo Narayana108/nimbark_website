@@ -3019,14 +3019,8 @@ select {
 .collapse {
   visibility: collapse;
 }
-.z-0 {
-  z-index: 0;
-}
-.z-20 {
-  z-index: 20;
-}
-.-z-50 {
-  z-index: -50;
+.z-40 {
+  z-index: 40;
 }
 .mx-auto {
   margin-left: auto;
@@ -3070,12 +3064,6 @@ select {
 }
 .max-w-6xl {
   max-width: 72rem;
-}
-.max-w-sm {
-  max-width: 24rem;
-}
-.max-w-none {
-  max-width: none;
 }
 .list-inside {
   list-style-position: inside;
@@ -3163,6 +3151,14 @@ select {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -3171,9 +3167,6 @@ select {
 }
 .pb-6 {
   padding-bottom: 1.5rem;
-}
-.pt-6 {
-  padding-top: 1.5rem;
 }
 .text-center {
   text-align: center;
@@ -3185,10 +3178,6 @@ select {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -3258,12 +3247,13 @@ select {
 }
 @media (min-width: 640px) {
 
-  .sm\:max-w-none {
-    max-width: none;
-  }
-
   .sm\:max-w-xs {
     max-width: 20rem;
+  }
+
+  .sm\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .sm\:px-8 {
@@ -3274,11 +3264,6 @@ select {
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }
 @media (min-width: 768px) {
@@ -3303,11 +3288,6 @@ select {
 
   .md\:justify-self-end {
     justify-self: end;
-  }
-
-  .md\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
   }
 
   .md\:py-0 {
