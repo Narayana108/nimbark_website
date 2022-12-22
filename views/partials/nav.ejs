@@ -1,22 +1,24 @@
 <div class="navbar dark:bg-base-100">
+
+  <!--Mobile-->
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-          <a class="justify-between">
-            Philosophy 
-            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-          </a>
+
+        <a class="justify-between">
+          Philosophy 
+        </a>
           <ul class="p-2 bg-base-100">
-            <li><a>Dvaitādvaita</a></li>
-            <li><a>Philosophy - Radha Krishna Bhakti</a></li>
+            <li><a href="/dvaitaAdvaita">Dvaitadvaita</a></li>
+            <li><a>Radha Krishna Bhakti</a></li>
             <li><a>Sadhana</a></li>
             <li><a>Moksha</a></li>
-            <li><a>Shri Harivyasdev achyarya</a></li>
           </ul>
         </li>
+
         <li tabindex="0">
           <a class="justify-between">
             Parampara
@@ -28,22 +30,12 @@
             <li><a>Shri Keshavakashimiri achyarya</a></li>
             <li><a>Shri Bhattadev achyarya</a></li>
             <li><a>Shri Harivyasdev achyarya</a></li>
+            <li><a>Full list</a></li>
           </ul>
         </li>
-        <li tabindex="0">
-          <a class="justify-between">
-            Parampara
-            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-          </a>
-          <ul class="p-2 bg-base-100">
-            <li><a>Shri Nimbark acharya</a></li>
-            <li><a>Shri Shrinivyas acharya</a></li>
-            <li><a>Shri Keshavakashimiri achyarya</a></li>
-            <li><a>Shri Bhattadev achyarya</a></li>
-            <li><a>Shri Harivyasdev achyarya</a></li>
-          </ul>
-        </li>
+
         <li><a href="/history">History</a></li>
+
         <li tabindex="0">
           <a class="justify-between">
             Sacred Texts
@@ -55,15 +47,33 @@
             <li><a>Mahavani - Shri Harivyasdev Acharya</a></li>
           </ul>
         </li>
+
+        <li><a href="">Digital Media</a></li>
         <li><a href="/faq">FAQ</a></li>
         <li><a href="/contact">Contact</a></li>
+
       </ul>
     </div>
     <a class="btn btn-ghost normal-case text-xl" href="/">Shri Sanakādi Sampradāya</a>
   </div>
-  <div class="navbar-center hidden lg:flex">
+
+  <!--Desktop-->
+  <div class="navbar-center hidden lg:flex z-0">
     <ul class="menu menu-horizontal p-0">
-      <li><a href="/dvaitaAdvaita">Dvaita-Advaita Philosophy</a></li>
+
+      <li tabindex="0">
+        <a class="justify-between">
+          Philosophy
+          <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+        </a>
+        <ul class="p-2 bg-base-100">
+          <li><a href="/dvaitaAdvaita">Dvaitadvaita tattva</a></li>
+          <li><a href="">Radha Krishna Bhakti</a></li>
+          <li><a href="">Sadhana</a></li>
+          <li><a href="">Moksha</a></li>
+        </ul>
+      </li>
+
       <li tabindex="0">
         <a>
           Parampara
@@ -76,25 +86,31 @@
           <li><a>Shri Bhattadev achyarya</a></li>
           <li><a>Shri Harivyasdev achyarya</a></li>
           <li><a>Yogiraj Swami Ramdas Kathia Baba Maharaj</a></li>
-          <li><a>Other</a></li>
+          <li><a>Full list</a></li>
         </ul>
       </li>
+
       <li><a href="/history">History</a></li>
+
+      <li tabindex="0">
+        <a class="justify-between">
+          Sacred Texts
+          <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+        </a>
+        <ul class="p-2 bg-base-100">
+          <li><a>Vedānta Pārijāta Saurabha - Nimbark Acharya</a></li>
+          <li><a>Dasha shloki - Nimbark Acharya</a></li>
+          <li><a>Mahavani - Shri Harivyasdev Acharya</a></li>
+        </ul>
+      </li>
+
+      <li><a href="">Digital Media</a></li>
       <li><a href="/faq">FAQ</a></li>
-        <li tabindex="0">
-          <a class="justify-between">
-            Sacred Media and Texts
-            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-          </a>
-          <ul class="p-2 bg-base-100">
-            <li><a>Vedānta Pārijāta Saurabha - Nimbark Acharya</a></li>
-            <li><a>Dasha shloki - Nimbark Acharya</a></li>
-            <li><a>Mahavani - Shri Harivyasdev Acharya</a></li>
-          </ul>
-        </li>
       <li><a href="/contact">Contact</a></li>
     </ul>
   </div>
+
   <div class="navbar-end">
   </div>
+
 </div>
